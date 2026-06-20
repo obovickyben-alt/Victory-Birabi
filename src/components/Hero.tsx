@@ -76,7 +76,7 @@ export function Hero() {
               {/* Gap between ring and image */}
               <div className="absolute inset-5 rounded-full overflow-hidden border border-[#D99A3A]/10 bg-slate-100 flex items-center justify-center">
                 <img 
-                  src="https://i.ibb.co/VcKrLdTt/profile.jpg" 
+                  src="https://i.ibb.co/KjTyvmgf/profile.jpg" 
                   alt="Birabi Victory Leera" 
                   className="w-full h-full object-cover object-center"
                 />
