@@ -30,17 +30,17 @@ export function Hero() {
               Specializing in <span className="font-semibold text-brand-navy">Executive & Administrative Support</span>. I create highly streamlined workflows that help entrepreneurs stand out and focus on growth.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 mb-14 pb-12 w-fit">
+            <div className="flex flex-col sm:flex-row gap-4 mb-14 pb-12 w-full max-w-[280px] sm:max-w-none mx-auto lg:mx-0 justify-center lg:justify-start items-stretch sm:items-center">
               <a
                 href="#contact"
-                className="px-8 py-3.5 bg-[#D99A3A] text-white text-sm font-semibold rounded-lg hover:bg-[#c2872e] transition shadow-lg shadow-[#D99A3A]/20 flex items-center justify-center gap-2 group"
+                className="w-full sm:w-auto px-8 py-3.5 bg-[#D99A3A] text-white text-sm font-semibold rounded-lg hover:bg-[#c2872e] transition shadow-lg shadow-[#D99A3A]/20 flex items-center justify-center gap-2 group"
               >
                 Contact Me
-                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform shrink-0" />
               </a>
               <a
                 href="#portfolio"
-                className="px-8 py-3.5 bg-white border border-slate-200 text-brand-navy text-sm font-semibold rounded-lg hover:bg-slate-50 transition flex items-center justify-center"
+                className="w-full sm:w-auto px-8 py-3.5 bg-white border border-slate-200 text-brand-navy text-sm font-semibold rounded-lg hover:bg-slate-50 transition flex items-center justify-center"
               >
                 View My Work
               </a>
