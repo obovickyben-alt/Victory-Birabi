@@ -48,7 +48,7 @@ export function Navbar() {
               href="https://wa.link/h4vhse"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-5 py-2.5 bg-red-600 text-white text-sm font-semibold rounded-lg hover:bg-red-700 transition"
+              className="px-5 py-2.5 bg-brand-royal text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition"
             >
               Contact Me
             </a>
@@ -89,7 +89,7 @@ export function Navbar() {
                 href="https://wa.link/h4vhse"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-center px-5 py-3 bg-red-600 hover:bg-red-700 text-white text-sm font-semibold rounded-lg mt-4 transition-colors"
+                className="text-center px-5 py-3 bg-brand-royal hover:bg-blue-700 text-white text-sm font-semibold rounded-lg mt-4 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 Contact Me
